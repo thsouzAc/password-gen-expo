@@ -1,44 +1,45 @@
-🔐 Gerador de Senhas
-Um aplicativo simples para gerar senhas seguras e aleatórias diretamente do seu dispositivo.
+# 🔐 Gerador de Senhas :
 
-📌 Funcionalidades
-✅ Gera senhas seguras e aleatórias
-✅ Opção para incluir números, letras e caracteres especiais
-✅ Escolha o tamanho da senha
-✅ Interface simples e fácil de usar
-✅ Compatível com Android, iOS e Web (via Expo)
+**Um aplicativo simples para gerar senhas seguras e aleatórias diretamente de um dispositivo mobile.** 
 
-🚀 Como Executar
-Clone o repositório
+# 📌 Funcionalidades : 
 
-bash
-Copiar
-Editar
-git clone https://github.com/thsouzAc/password-gen-expo.git
-cd gerador-de-senhas
-Instale as dependências
+✅ gera senhas seguras e aleatórias
 
-bash
-Copiar
-Editar
-npm install
-Inicie o projeto
+✅ escolha o tamanho da senha
 
-bash
-Copiar
-Editar
-npx expo start
-Abra no seu dispositivo ou emulador
+✅ interface simples e fácil de usar
 
-Pressione w para abrir no navegador
+✅ compatível com Android, iOS e Web (via Expo) 
 
-Pressione a para abrir no Android
+# 🚀 Como Executar
 
-Pressione i para abrir no iOS
+Clone o repositório :
 
-🛠 Tecnologias Utilizadas
-Expo
+- **git clone https://github.com/thsouzAc/password-gen-expo.git**
 
-React Native
+- **cd gerador-de-senhas**
+  
+Instale as dependências : 
 
-React Native Web
+- **npm install**
+
+Inicie o projeto : 
+
+- **npx expo start**
+
+Abra no seu dispositivo ou emulador : 
+
+- **pressione w para abrir no navegador**
+
+- **pressione a para abrir no Android**
+
+- **pressione i para abrir no iOS**
+
+# 🛠 Tecnologias Utilizadas : 
+
+- **Expo**
+
+- **React Native**
+
+- **React Native Web**
