@@ -1,15 +1,14 @@
 import React from 'react';
-import { View, StyleSheet, Text } from 'react-native';
-import { Button } from 'react-native-paper';
-import {customText} from '../../../modal/index'
+import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
+
 export function ItemSenha({ data, removeSenha }) {
   return (
     <View style={styles.box3}>
-      <Text>{data}</Text>
-      <Text></Text>
-      <Button onPress={removeSenha} style={styles.button}>
-        <Text style={styles.buttonText}>x</Text>
-      </Button>
+      <Text style={styles.textSenha}>{data}</Text>
+      <TouchableOpacity onPress={removeSenha} style={styles.button}>
+        <Ionicons name="trash-outline" size={28} color="black" />
+      </TouchableOpacity>
     </View>
   );
 }
@@ -18,24 +17,23 @@ const styles = StyleSheet.create({
   box3: {
     backgroundColor: 'gainsboro',
     width: '100%',
-    padding: 10,
-    marginBottom: 14,
+    padding: 14,
+    marginBottom: 10,
     borderRadius: 8,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+    alignSelf: 'center',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+  },
+  textSenha: {
+    flex: 1,
+    fontSize: 16,
   },
   button: {
-    backgroundColor: 'gainsboro',
-    borderRadius: 50, 
-    width: 24, 
-    height: 24,
-    justifyContent: 'center', 
-    alignItems: 'center', 
-  },
-  buttonText: {
-    color: 'black',
-    fontWeight: 'bold',
-    fontSize: 12,
+    padding: 8,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });

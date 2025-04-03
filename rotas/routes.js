@@ -35,9 +35,9 @@ export function Routes() {
           headerShown: false,
           tabBarIcon: ({ focused, size, color }) => {
             if (focused) {
-              return <Ionicons size={size} color={color} name="home" />;
+              return <Ionicons size={size} color={color} name="lock-closed" />;
             }
-            return <Ionicons size={size} color={color} name="home-outline" />;
+            return <Ionicons size={size} color={color} name="lock-closed-outline" />;
           },
         }}
       />

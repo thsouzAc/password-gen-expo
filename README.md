@@ -43,3 +43,5 @@ Abra no seu dispositivo ou emulador :
 - **React Native**
 
 - **React Native Web**
+
+- **JavaScript**
